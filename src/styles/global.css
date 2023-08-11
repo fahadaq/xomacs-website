@@ -8,3 +8,7 @@ body {
     overflow-x: hidden !important;
     scroll-behavior: smooth;
   }
+
+  .my-custom-bg-class{
+    background-image: url('../images/Hero.png');
+  }

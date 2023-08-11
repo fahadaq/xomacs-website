@@ -4,15 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import logo from "../images/logo.png"
-import PageBanner from "../layout/page-banner/PageBanner"
+import robot from "../images/robot.png"
+// import PageBanner from "../layout/page-banner/PageBanner"
+import Home from "../components/self/home"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <div className="bg-zinc-950">
-         <img src={logo} className="max-w-full"/>
-         {/* <StaticImage src={logo} className="max-w-full bg-zinc-950"/> */}
-      </div>
+      <Home/>
     </Layout>
 
     // <Layout>
